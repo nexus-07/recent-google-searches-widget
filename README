@@ -2,15 +2,17 @@
 Tags: Search, Google
 Stable tag: 1.40
 Donate link: https://online.nwf.org/site/Donation2?df_id=6620&6620.donation=form1
+Site link: http://zavedu.org.ua
 Requires at least: 2.0
 Tested up to: 2.92
-Contributors: Keith Graham
+Contributors: Keith Graham, Alexander Gerasimov
 
 Watches for hits arriving from search engines. Puts a list of recent queries as a widget. 
 
 == Description ==
 The Recent Google Searches Widget collects the query string from Google, Bing and Yahoo. It lists the last 5 as a sidebar widget so that users might click on them and find information using the WordPress search. In this way a user might find more pages that satisfy his search and other users may be interested in the same things that previous searchers used as queries.
 It is quite possible that the Search engine query will result in a not found because the WordPress built-in search is not very flexible, so I have written a loose search plugin that I am going to submit to the plugin repository.
+This fork records Yandex usage and correctly recognizes query encoding
 
 == Installation ==
 1. Download the plugin.
