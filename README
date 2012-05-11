@@ -1,0 +1,69 @@
+=== Recent Google Searches Widget ===
+Tags: Search, Google
+Stable tag: 1.40
+Donate link: https://online.nwf.org/site/Donation2?df_id=6620&6620.donation=form1
+Requires at least: 2.0
+Tested up to: 2.92
+Contributors: Keith Graham
+
+Watches for hits arriving from search engines. Puts a list of recent queries as a widget. 
+
+== Description ==
+The Recent Google Searches Widget collects the query string from Google, Bing and Yahoo. It lists the last 5 as a sidebar widget so that users might click on them and find information using the WordPress search. In this way a user might find more pages that satisfy his search and other users may be interested in the same things that previous searchers used as queries.
+It is quite possible that the Search engine query will result in a not found because the WordPress built-in search is not very flexible, so I have written a loose search plugin that I am going to submit to the plugin repository.
+
+== Installation ==
+1. Download the plugin.
+2. Upload the plugin to your wp-content/plugins directory.
+3. Activate the plugin.
+4. Drag the widget to a sidebar.
+5. Edit the sidebar title and count of links to display if needed.
+
+== Changelog ==
+
+= 1.0 =
+* initial release 
+
+= 1.1 =
+* Fixed stupid bug
+
+= 1.11 =
+* Formatted Widget title according to standards. (thanks tat2jr for pointing out the issue.)
+
+= 1.12 =
+* Changed search link to work better with canonical pages.
+
+= 1.13 =
+* Fixed unordered list format and removed debug message.
+
+= 1.20 =
+* Added nofollow option to links
+* Added ability to track up to 30 links
+* Eliminated duplicates.
+
+= 1.30 =
+* Fixed bug in default values for number of keywords to display
+
+= 1.40 =
+* Changed URL encoding in the search string. Santatized input search string to avoid exploits and improve security.
+
+
+== Upgrade Notice ==
+
+= 1.30 =
+Fixed a bug in the way default values are set.
+
+= 1.20 =
+Adds several new features to widget.
+
+
+== Support ==
+This plugin is in active development. All feedback is welcome on "<a href="http://www.blogseye.com/" title="Wordpress plugin: Outbound Click Plugin">program development pages</a>".
+Other plugins:
+<a href="http://wordpress.org/extend/plugins/permalink-finder/">Permalink Finder Plugin</a>
+<a href="http://wordpress.org/extend/plugins/outbound-click-tracker/">Outbound Link Tracker</a>
+<a href="http://wordpress.org/extend/plugins/open-in-new-window-plugin/">Open in New Window Plugin</a>
+<a href="http://wordpress.org/extend/plugins/recent-google-searches-widget/stats/">Recent Google Searches Widget</a>
+<a href="http://wordpress.org/extend/plugins/looser-search-plugin/">Looser Search</a>
+<a href="http://wordpress.org/extend/plugins/keywords-widget/">Keywords Widget</a>
+
